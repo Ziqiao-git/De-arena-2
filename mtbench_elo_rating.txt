@@ -1,0 +1,941 @@
+Elo Rating Style:
+lambda-qwen2.5-32b-dpo-test            1267.316255
+Qwen2.5-32B-Instruct-CFT               1217.279173
+Qwen2.5-32B-Instruct-abliterated-v2    1183.805369
+Llama-3.3-70B-Instruct                 1071.620796
+Qwen2-72B                               259.978407
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct        1186.130808
+Rombos-LLM-V2.5-Qwen-72b    1161.336042
+calme-2.2-qwen2.5-72b       1160.940368
+calme-2.1-qwen2.5-72b       1144.393660
+Llama-3.3-70B-Instruct       743.397210
+Saka-14B                     603.801911
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct        1186.130808
+Rombos-LLM-V2.5-Qwen-72b    1161.336042
+calme-2.2-qwen2.5-72b       1160.940368
+calme-2.1-qwen2.5-72b       1144.393660
+Llama-3.3-70B-Instruct       743.397210
+Saka-14B                     603.801911
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct        1298.422301
+calme-2.2-qwen2.5-72b       1273.693138
+Rombos-LLM-V2.5-Qwen-72b    1273.612480
+calme-2.1-qwen2.5-72b       1256.668283
+Llama-3.3-70B-Instruct       855.045233
+Saka-14B                     714.306598
+Qwen2-72B                    328.251967
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct        1298.422301
+calme-2.2-qwen2.5-72b       1273.693138
+Rombos-LLM-V2.5-Qwen-72b    1273.612480
+calme-2.1-qwen2.5-72b       1256.668283
+Llama-3.3-70B-Instruct       855.045233
+Saka-14B                     714.306598
+Qwen2-72B                    328.251967
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1290.154693
+calme-2.2-qwen2.5-72b                  1265.393237
+Rombos-LLM-V2.5-Qwen-72b               1265.200739
+calme-2.1-qwen2.5-72b                  1251.341406
+Qwen2.5-32B-Instruct-abliterated-v2    1064.136059
+Llama-3.3-70B-Instruct                  842.365564
+Saka-14B                                705.995337
+Qwen2-72B                               315.412965
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1289.478469
+calme-2.2-qwen2.5-72b                  1264.792902
+Rombos-LLM-V2.5-Qwen-72b               1264.742480
+calme-2.1-qwen2.5-72b                  1250.915861
+Qwen2.5-32B-Instruct-abliterated-v2    1064.536952
+Llama-3.3-70B-Instruct                  841.105386
+Saka-14B                                707.817707
+Qwen2-72B                               316.610243
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1290.333816
+calme-2.2-qwen2.5-72b                  1265.427132
+Rombos-LLM-V2.5-Qwen-72b               1265.294119
+calme-2.1-qwen2.5-72b                  1253.208331
+Qwen2.5-32B-Instruct-abliterated-v2    1062.141843
+Llama-3.3-70B-Instruct                  840.555663
+Saka-14B                                707.143448
+Qwen2-72B                               315.895648
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1284.309102
+calme-2.2-qwen2.5-72b                  1259.862146
+Rombos-LLM-V2.5-Qwen-72b               1259.829722
+calme-2.1-qwen2.5-72b                  1249.087482
+Qwen2.5-32B-Instruct-abliterated-v2    1064.920856
+Cogito-R1                              1045.418986
+Llama-3.3-70B-Instruct                  829.673575
+Saka-14B                                698.272403
+Qwen2-72B                               308.625728
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1284.309102
+calme-2.2-qwen2.5-72b                  1259.862146
+Rombos-LLM-V2.5-Qwen-72b               1259.829722
+calme-2.1-qwen2.5-72b                  1249.087482
+Qwen2.5-32B-Instruct-abliterated-v2    1064.920856
+Cogito-R1                              1045.418986
+Llama-3.3-70B-Instruct                  829.673575
+Saka-14B                                698.272403
+Qwen2-72B                               308.625728
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1284.309102
+calme-2.2-qwen2.5-72b                  1259.862146
+Rombos-LLM-V2.5-Qwen-72b               1259.829722
+calme-2.1-qwen2.5-72b                  1249.087482
+Qwen2.5-32B-Instruct-abliterated-v2    1064.920856
+Cogito-R1                              1045.418986
+Llama-3.3-70B-Instruct                  829.673575
+Saka-14B                                698.272403
+Qwen2-72B                               308.625728
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1288.445692
+calme-2.2-qwen2.5-72b                  1264.187772
+Rombos-LLM-V2.5-Qwen-72b               1264.029532
+calme-2.1-qwen2.5-72b                  1253.540287
+Qwen2.5-32B-Instruct-abliterated-v2    1070.508130
+Cogito-R1                              1052.299468
+tempmotacilla-cinerea-0308              963.891863
+Llama-3.3-70B-Instruct                  832.969426
+Saka-14B                                699.418208
+Qwen2-72B                               310.709622
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1288.242724
+calme-2.2-qwen2.5-72b                  1263.873645
+Rombos-LLM-V2.5-Qwen-72b               1263.765115
+calme-2.1-qwen2.5-72b                  1253.326212
+Qwen2.5-32B-Instruct-abliterated-v2    1070.498604
+Cogito-R1                              1052.639253
+tempmotacilla-cinerea-0308              965.345502
+Llama-3.3-70B-Instruct                  832.696190
+Saka-14B                                699.293111
+Qwen2-72B                               310.319643
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1288.097235
+calme-2.2-qwen2.5-72b                  1263.883726
+Rombos-LLM-V2.5-Qwen-72b               1263.795803
+calme-2.1-qwen2.5-72b                  1253.366198
+Qwen2.5-32B-Instruct-abliterated-v2    1070.562507
+Cogito-R1                              1053.259052
+tempmotacilla-cinerea-0308              965.013717
+Llama-3.3-70B-Instruct                  832.619569
+Saka-14B                                699.180394
+Qwen2-72B                               310.221799
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1318.010968
+calme-2.2-qwen2.5-72b                  1294.111176
+Rombos-LLM-V2.5-Qwen-72b               1293.705805
+calme-2.1-qwen2.5-72b                  1284.563840
+Qwen2.5-32B-Instruct-abliterated-v2    1106.134833
+Cogito-R1                              1094.415982
+tempmotacilla-cinerea-0308             1000.957704
+Llama-3.3-70B-Instruct                  860.498991
+AceGPT-v2-32B-Chat                      710.951823
+Saka-14B                                710.748083
+Qwen2-72B                               325.900795
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1318.539181
+calme-2.2-qwen2.5-72b                  1294.432763
+Rombos-LLM-V2.5-Qwen-72b               1294.007982
+calme-2.1-qwen2.5-72b                  1284.759042
+Qwen2.5-32B-Instruct-abliterated-v2    1106.369782
+Cogito-R1                              1094.947104
+tempmotacilla-cinerea-0308             1001.478886
+Llama-3.3-70B-Instruct                  861.034212
+AceGPT-v2-32B-Chat                      712.096179
+Saka-14B                                711.306549
+Qwen2-72B                               321.028321
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1307.499709
+Rombos-LLM-V2.5-Qwen-72b               1284.318241
+calme-2.2-qwen2.5-72b                  1283.498419
+calme-2.1-qwen2.5-72b                  1273.457105
+lambda-qwen2.5-32b-dpo-test            1140.807901
+Qwen2.5-32B-Instruct-abliterated-v2    1095.083489
+Cogito-R1                              1077.780915
+tempmotacilla-cinerea-0308              987.373165
+Llama-3.3-70B-Instruct                  847.902076
+AceGPT-v2-32B-Chat                      698.078437
+Saka-14B                                697.565703
+Qwen2-72B                               306.634839
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1307.878461
+Rombos-LLM-V2.5-Qwen-72b               1285.062690
+calme-2.2-qwen2.5-72b                  1283.976784
+calme-2.1-qwen2.5-72b                  1274.092812
+lambda-qwen2.5-32b-dpo-test            1144.941098
+Qwen2.5-32B-Instruct-abliterated-v2    1095.038107
+Cogito-R1                              1075.606842
+tempmotacilla-cinerea-0308              986.541691
+Llama-3.3-70B-Instruct                  847.329691
+AceGPT-v2-32B-Chat                      697.095369
+Saka-14B                                696.821311
+Qwen2-72B                               305.615144
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1308.211398
+Rombos-LLM-V2.5-Qwen-72b               1285.238885
+calme-2.2-qwen2.5-72b                  1284.241032
+calme-2.1-qwen2.5-72b                  1275.291952
+lambda-qwen2.5-32b-dpo-test            1144.377425
+Qwen2.5-32B-Instruct-abliterated-v2    1094.663453
+Cogito-R1                              1075.284900
+tempmotacilla-cinerea-0308              986.383069
+Llama-3.3-70B-Instruct                  847.222377
+AceGPT-v2-32B-Chat                      696.990363
+Saka-14B                                696.591093
+Qwen2-72B                               305.504053
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1299.153806
+Rombos-LLM-V2.5-Qwen-72b               1275.988868
+calme-2.2-qwen2.5-72b                  1275.500200
+calme-2.1-qwen2.5-72b                  1266.807624
+lambda-qwen2.5-32b-dpo-test            1133.698719
+Awqward2.5-32B-Instruct                1127.269529
+Qwen2.5-32B-Instruct-abliterated-v2    1086.735350
+Cogito-R1                              1060.274549
+tempmotacilla-cinerea-0308              973.790624
+Llama-3.3-70B-Instruct                  835.849962
+AceGPT-v2-32B-Chat                      685.206635
+Saka-14B                                684.670747
+Qwen2-72B                               295.053387
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1299.153806
+Rombos-LLM-V2.5-Qwen-72b               1275.988868
+calme-2.2-qwen2.5-72b                  1275.500200
+calme-2.1-qwen2.5-72b                  1266.807624
+lambda-qwen2.5-32b-dpo-test            1133.698719
+Awqward2.5-32B-Instruct                1127.269529
+Qwen2.5-32B-Instruct-abliterated-v2    1086.735350
+Cogito-R1                              1060.274549
+tempmotacilla-cinerea-0308              973.790624
+Llama-3.3-70B-Instruct                  835.849962
+AceGPT-v2-32B-Chat                      685.206635
+Saka-14B                                684.670747
+Qwen2-72B                               295.053387
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1292.692395
+calme-2.2-qwen2.5-72b                  1270.791956
+Rombos-LLM-V2.5-Qwen-72b               1268.728033
+calme-2.1-qwen2.5-72b                  1259.697406
+lambda-qwen2.5-32b-dpo-test            1124.669195
+Awqward2.5-32B-Instruct                1120.946434
+Qwen2.5-32B-Instruct-CFT               1106.332448
+Qwen2.5-32B-Instruct-abliterated-v2    1078.160235
+Cogito-R1                              1049.537391
+tempmotacilla-cinerea-0308              964.163578
+Llama-3.3-70B-Instruct                  826.931511
+AceGPT-v2-32B-Chat                      675.952454
+Saka-14B                                675.360397
+Qwen2-72B                               286.036567
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1292.634547
+calme-2.2-qwen2.5-72b                  1270.835941
+Rombos-LLM-V2.5-Qwen-72b               1268.669377
+calme-2.1-qwen2.5-72b                  1259.753574
+lambda-qwen2.5-32b-dpo-test            1124.754463
+Awqward2.5-32B-Instruct                1121.675728
+Qwen2.5-32B-Instruct-CFT               1105.231712
+Qwen2.5-32B-Instruct-abliterated-v2    1078.327704
+Cogito-R1                              1049.555924
+tempmotacilla-cinerea-0308              964.150473
+Llama-3.3-70B-Instruct                  826.946601
+AceGPT-v2-32B-Chat                      675.932353
+Saka-14B                                675.368471
+Qwen2-72B                               286.163131
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1338.033095
+calme-2.2-qwen2.5-72b                  1316.247725
+Rombos-LLM-V2.5-Qwen-72b               1314.238367
+calme-2.1-qwen2.5-72b                  1305.514636
+lambda-qwen2.5-32b-dpo-test            1170.828957
+Awqward2.5-32B-Instruct                1167.799005
+Qwen2.5-32B-Instruct-CFT               1151.943076
+Qwen2.5-32B-Instruct-abliterated-v2    1124.582355
+Cogito-R1                              1095.619944
+tempmotacilla-cinerea-0308             1009.728880
+Llama-3.3-70B-Instruct                  872.683836
+AceGPT-v2-32B-Chat                      723.594347
+Saka-14B                                719.237496
+AceGPT-v2-70B-Chat                      368.205539
+Qwen2-72B                               321.742742
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1338.033095
+calme-2.2-qwen2.5-72b                  1316.247725
+Rombos-LLM-V2.5-Qwen-72b               1314.238367
+calme-2.1-qwen2.5-72b                  1305.514636
+lambda-qwen2.5-32b-dpo-test            1170.828957
+Awqward2.5-32B-Instruct                1167.799005
+Qwen2.5-32B-Instruct-CFT               1151.943076
+Qwen2.5-32B-Instruct-abliterated-v2    1124.582355
+Cogito-R1                              1095.619944
+tempmotacilla-cinerea-0308             1009.728880
+Llama-3.3-70B-Instruct                  872.683836
+AceGPT-v2-32B-Chat                      723.594347
+Saka-14B                                719.237496
+AceGPT-v2-70B-Chat                      368.205539
+Qwen2-72B                               321.742742
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1332.587077
+calme-2.2-qwen2.5-72b                  1310.958008
+Rombos-LLM-V2.5-Qwen-72b               1309.370276
+calme-2.1-qwen2.5-72b                  1299.053483
+Awqward2.5-32B-Instruct                1161.374152
+lambda-qwen2.5-32b-dpo-test            1161.024846
+Qwen2.5-32B-Instruct-CFT               1147.964046
+Qwen2.5-32B-Instruct-abliterated-v2    1118.705385
+Qwentile2.5-32B-Instruct               1090.481591
+Cogito-R1                              1086.515347
+tempmotacilla-cinerea-0308             1004.170186
+Llama-3.3-70B-Instruct                  866.839505
+AceGPT-v2-32B-Chat                      717.999719
+Saka-14B                                714.400408
+AceGPT-v2-70B-Chat                      361.918723
+Qwen2-72B                               316.637248
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+Qwen2.5-72B-Instruct                   1331.888573
+calme-2.2-qwen2.5-72b                  1310.388677
+Rombos-LLM-V2.5-Qwen-72b               1308.981530
+calme-2.1-qwen2.5-72b                  1298.953120
+Awqward2.5-32B-Instruct                1161.473483
+lambda-qwen2.5-32b-dpo-test            1161.088381
+Qwen2.5-32B-Instruct-CFT               1148.360089
+Qwen2.5-32B-Instruct-abliterated-v2    1119.920929
+Qwentile2.5-32B-Instruct               1093.192557
+Cogito-R1                              1085.160926
+tempmotacilla-cinerea-0308             1003.941136
+Llama-3.3-70B-Instruct                  866.916884
+AceGPT-v2-32B-Chat                      717.610206
+Saka-14B                                714.606147
+AceGPT-v2-70B-Chat                      362.051659
+Qwen2-72B                               315.465704
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b       1238.340470
+Rombos-LLM-V2.5-Qwen-72b    1215.564908
+Qwen2.5-72B-Instruct        1180.925725
+Llama-3.3-70B-Instruct      1027.700864
+Qwen2-72B                    337.468033
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b       1238.340470
+Rombos-LLM-V2.5-Qwen-72b    1215.564908
+Qwen2.5-72B-Instruct        1180.925725
+Llama-3.3-70B-Instruct      1027.700864
+Qwen2-72B                    337.468033
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1211.328075
+Rombos-LLM-V2.5-Qwen-72b       1188.176991
+Qwen2.5-72B-Instruct           1152.774284
+lambda-qwen2.5-32b-dpo-test    1139.809697
+Llama-3.3-70B-Instruct          996.637260
+Qwen2-72B                       311.273694
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1211.328075
+Rombos-LLM-V2.5-Qwen-72b       1188.176991
+Qwen2.5-72B-Instruct           1152.774284
+lambda-qwen2.5-32b-dpo-test    1139.809697
+Llama-3.3-70B-Instruct          996.637260
+Qwen2-72B                       311.273694
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1191.903860
+Rombos-LLM-V2.5-Qwen-72b       1168.735685
+Qwen2.5-72B-Instruct           1134.567932
+lambda-qwen2.5-32b-dpo-test    1127.409944
+Qwentile2.5-32B-Instruct       1086.621238
+Llama-3.3-70B-Instruct          974.524733
+Qwen2-72B                       316.236608
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1191.087619
+Rombos-LLM-V2.5-Qwen-72b       1168.074193
+Qwen2.5-72B-Instruct           1134.504298
+lambda-qwen2.5-32b-dpo-test    1128.515497
+Qwentile2.5-32B-Instruct       1091.936136
+Llama-3.3-70B-Instruct          972.942265
+Qwen2-72B                       312.939992
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1191.376057
+Rombos-LLM-V2.5-Qwen-72b       1168.296346
+Qwen2.5-72B-Instruct           1134.692854
+lambda-qwen2.5-32b-dpo-test    1130.965676
+Qwentile2.5-32B-Instruct       1089.595486
+Llama-3.3-70B-Instruct          972.711845
+Qwen2-72B                       312.361736
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1190.956087
+Rombos-LLM-V2.5-Qwen-72b       1168.013717
+Qwen2.5-72B-Instruct           1134.692684
+lambda-qwen2.5-32b-dpo-test    1132.993757
+Qwentile2.5-32B-Instruct       1090.835462
+Saka-14B                        999.047688
+Llama-3.3-70B-Instruct          971.600184
+Qwen2-72B                       311.860422
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1191.269400
+Rombos-LLM-V2.5-Qwen-72b       1168.104169
+Qwen2.5-72B-Instruct           1134.918693
+lambda-qwen2.5-32b-dpo-test    1133.951205
+Qwentile2.5-32B-Instruct       1091.916776
+Saka-14B                       1003.452500
+Llama-3.3-70B-Instruct          971.562337
+Qwen2-72B                       304.824919
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1191.356265
+Rombos-LLM-V2.5-Qwen-72b       1168.125255
+Qwen2.5-72B-Instruct           1134.809918
+lambda-qwen2.5-32b-dpo-test    1133.389374
+Qwentile2.5-32B-Instruct       1090.325238
+Saka-14B                       1005.656026
+Llama-3.3-70B-Instruct          971.688420
+Qwen2-72B                       304.649504
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1179.569439
+Rombos-LLM-V2.5-Qwen-72b       1156.402340
+Qwen2.5-72B-Instruct           1123.901546
+lambda-qwen2.5-32b-dpo-test    1123.640462
+Qwentile2.5-32B-Instruct       1086.021396
+Cogito-R1                      1082.011879
+Saka-14B                        994.327192
+Llama-3.3-70B-Instruct          959.141442
+Qwen2-72B                       294.984305
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1179.657288
+Rombos-LLM-V2.5-Qwen-72b       1156.677017
+Qwen2.5-72B-Instruct           1124.240413
+lambda-qwen2.5-32b-dpo-test    1124.120109
+Qwentile2.5-32B-Instruct       1087.924755
+Cogito-R1                      1081.808933
+Saka-14B                        991.814892
+Llama-3.3-70B-Instruct          959.133222
+Qwen2-72B                       294.623372
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1168.667509
+calme-2.1-qwen2.5-72b          1146.831419
+Rombos-LLM-V2.5-Qwen-72b       1146.588466
+Qwen2.5-72B-Instruct           1110.855162
+lambda-qwen2.5-32b-dpo-test    1103.809219
+Qwentile2.5-32B-Instruct       1069.672971
+Cogito-R1                      1059.781518
+Saka-14B                        973.124586
+Llama-3.3-70B-Instruct          942.639975
+Qwen2-72B                       278.029175
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1168.667509
+calme-2.1-qwen2.5-72b          1146.831419
+Rombos-LLM-V2.5-Qwen-72b       1146.588466
+Qwen2.5-72B-Instruct           1110.855162
+lambda-qwen2.5-32b-dpo-test    1103.809219
+Qwentile2.5-32B-Instruct       1069.672971
+Cogito-R1                      1059.781518
+Saka-14B                        973.124586
+Llama-3.3-70B-Instruct          942.639975
+Qwen2-72B                       278.029175
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1169.269116
+Rombos-LLM-V2.5-Qwen-72b       1146.649124
+calme-2.1-qwen2.5-72b          1146.272099
+Qwen2.5-72B-Instruct           1110.877714
+lambda-qwen2.5-32b-dpo-test    1103.729286
+Qwentile2.5-32B-Instruct       1069.628319
+Cogito-R1                      1059.652045
+Saka-14B                        973.037247
+Llama-3.3-70B-Instruct          942.705326
+Qwen2-72B                       278.179725
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1169.269116
+Rombos-LLM-V2.5-Qwen-72b       1146.649124
+calme-2.1-qwen2.5-72b          1146.272099
+Qwen2.5-72B-Instruct           1110.877714
+lambda-qwen2.5-32b-dpo-test    1103.729286
+Qwentile2.5-32B-Instruct       1069.628319
+Cogito-R1                      1059.652045
+Saka-14B                        973.037247
+Llama-3.3-70B-Instruct          942.705326
+Qwen2-72B                       278.179725
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1167.303057
+Rombos-LLM-V2.5-Qwen-72b       1144.682726
+calme-2.1-qwen2.5-72b          1144.494520
+Qwen2.5-72B-Instruct           1108.937641
+lambda-qwen2.5-32b-dpo-test    1101.408091
+Qwentile2.5-32B-Instruct       1069.497984
+Cogito-R1                      1058.364175
+tempmotacilla-cinerea-0308     1017.639024
+Saka-14B                        971.460433
+Llama-3.3-70B-Instruct          940.056900
+Qwen2-72B                       276.155450
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1166.963239
+calme-2.1-qwen2.5-72b          1144.366289
+Rombos-LLM-V2.5-Qwen-72b       1144.365585
+Qwen2.5-72B-Instruct           1108.673558
+lambda-qwen2.5-32b-dpo-test    1101.430980
+Qwentile2.5-32B-Instruct       1069.856809
+Cogito-R1                      1058.636378
+tempmotacilla-cinerea-0308     1015.503772
+Saka-14B                        974.197027
+Llama-3.3-70B-Instruct          939.285099
+Qwen2-72B                       276.721264
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1166.845271
+Rombos-LLM-V2.5-Qwen-72b       1144.265383
+calme-2.1-qwen2.5-72b          1143.952596
+Qwen2.5-72B-Instruct           1108.642345
+lambda-qwen2.5-32b-dpo-test    1101.394766
+Qwentile2.5-32B-Instruct       1069.473954
+Cogito-R1                      1056.916145
+tempmotacilla-cinerea-0308     1020.983618
+Saka-14B                        971.809329
+Llama-3.3-70B-Instruct          939.600848
+Qwen2-72B                       276.115746
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1205.146982
+calme-2.1-qwen2.5-72b          1182.239237
+Rombos-LLM-V2.5-Qwen-72b       1182.152963
+Qwen2.5-72B-Instruct           1146.043370
+lambda-qwen2.5-32b-dpo-test    1138.576900
+Qwentile2.5-32B-Instruct       1105.904496
+Cogito-R1                      1097.881118
+tempmotacilla-cinerea-0308     1058.787548
+Saka-14B                       1006.330818
+Llama-3.3-70B-Instruct          978.187384
+AceGPT-v2-32B-Chat              629.518022
+Qwen2-72B                       269.231162
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1205.146982
+calme-2.1-qwen2.5-72b          1182.239237
+Rombos-LLM-V2.5-Qwen-72b       1182.152963
+Qwen2.5-72B-Instruct           1146.043370
+lambda-qwen2.5-32b-dpo-test    1138.576900
+Qwentile2.5-32B-Instruct       1105.904496
+Cogito-R1                      1097.881118
+tempmotacilla-cinerea-0308     1058.787548
+Saka-14B                       1006.330818
+Llama-3.3-70B-Instruct          978.187384
+AceGPT-v2-32B-Chat              629.518022
+Qwen2-72B                       269.231162
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1193.789471
+Rombos-LLM-V2.5-Qwen-72b       1172.409899
+calme-2.1-qwen2.5-72b          1171.021172
+Awqward2.5-32B-Instruct        1138.984082
+Qwen2.5-72B-Instruct           1133.552918
+lambda-qwen2.5-32b-dpo-test    1130.042814
+Qwentile2.5-32B-Instruct       1095.597443
+Cogito-R1                      1082.422692
+tempmotacilla-cinerea-0308     1046.172486
+Saka-14B                        994.342830
+Llama-3.3-70B-Instruct          966.470103
+AceGPT-v2-32B-Chat              617.103694
+Qwen2-72B                       258.090395
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1193.969593
+Rombos-LLM-V2.5-Qwen-72b       1172.579565
+calme-2.1-qwen2.5-72b          1171.161924
+Awqward2.5-32B-Instruct        1138.868235
+Qwen2.5-72B-Instruct           1133.760616
+lambda-qwen2.5-32b-dpo-test    1131.435328
+Qwentile2.5-32B-Instruct       1094.724216
+Cogito-R1                      1082.216598
+tempmotacilla-cinerea-0308     1045.934737
+Saka-14B                        994.033702
+Llama-3.3-70B-Instruct          966.358859
+AceGPT-v2-32B-Chat              617.095982
+Qwen2-72B                       257.860645
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1195.137448
+Rombos-LLM-V2.5-Qwen-72b       1173.122121
+calme-2.1-qwen2.5-72b          1172.944918
+Qwen2.5-72B-Instruct           1136.660638
+Awqward2.5-32B-Instruct        1133.917264
+lambda-qwen2.5-32b-dpo-test    1131.251414
+Qwentile2.5-32B-Instruct       1094.291557
+Cogito-R1                      1081.728830
+tempmotacilla-cinerea-0308     1045.782070
+Saka-14B                        993.875575
+Llama-3.3-70B-Instruct          966.572483
+AceGPT-v2-32B-Chat              616.854927
+Qwen2-72B                       257.860754
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b          1195.137448
+Rombos-LLM-V2.5-Qwen-72b       1173.122121
+calme-2.1-qwen2.5-72b          1172.944918
+Qwen2.5-72B-Instruct           1136.660638
+Awqward2.5-32B-Instruct        1133.917264
+lambda-qwen2.5-32b-dpo-test    1131.251414
+Qwentile2.5-32B-Instruct       1094.291557
+Cogito-R1                      1081.728830
+tempmotacilla-cinerea-0308     1045.782070
+Saka-14B                        993.875575
+Llama-3.3-70B-Instruct          966.572483
+AceGPT-v2-32B-Chat              616.854927
+Qwen2-72B                       257.860754
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1187.831524
+Rombos-LLM-V2.5-Qwen-72b               1165.580600
+calme-2.1-qwen2.5-72b                  1164.934863
+Qwen2.5-72B-Instruct                   1131.717974
+Awqward2.5-32B-Instruct                1124.141230
+lambda-qwen2.5-32b-dpo-test            1123.175054
+Qwen2.5-32B-Instruct-abliterated-v2    1108.125504
+Qwentile2.5-32B-Instruct               1086.206789
+Cogito-R1                              1071.048448
+tempmotacilla-cinerea-0308             1036.756723
+Saka-14B                                985.063840
+Llama-3.3-70B-Instruct                  958.370862
+AceGPT-v2-32B-Chat                      607.601337
+Qwen2-72B                               249.445253
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1188.105607
+Rombos-LLM-V2.5-Qwen-72b               1165.626122
+calme-2.1-qwen2.5-72b                  1164.942495
+Qwen2.5-72B-Instruct                   1131.690000
+Awqward2.5-32B-Instruct                1124.011257
+lambda-qwen2.5-32b-dpo-test            1122.142885
+Qwen2.5-32B-Instruct-abliterated-v2    1108.838521
+Qwentile2.5-32B-Instruct               1086.389777
+Cogito-R1                              1070.969087
+tempmotacilla-cinerea-0308             1036.705182
+Saka-14B                                985.065041
+Llama-3.3-70B-Instruct                  958.295982
+AceGPT-v2-32B-Chat                      607.823681
+Qwen2-72B                               249.394364
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1233.764766
+Rombos-LLM-V2.5-Qwen-72b               1211.474618
+calme-2.1-qwen2.5-72b                  1210.755968
+Qwen2.5-72B-Instruct                   1177.519468
+Awqward2.5-32B-Instruct                1169.911521
+lambda-qwen2.5-32b-dpo-test            1167.956447
+Qwen2.5-32B-Instruct-abliterated-v2    1154.336863
+Qwentile2.5-32B-Instruct               1132.092581
+Cogito-R1                              1117.168753
+tempmotacilla-cinerea-0308             1082.491622
+Saka-14B                               1030.466115
+Llama-3.3-70B-Instruct                 1004.370879
+AceGPT-v2-32B-Chat                      665.529074
+AceGPT-v2-70B-Chat                      355.059668
+Qwen2-72B                               287.101656
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1233.764766
+Rombos-LLM-V2.5-Qwen-72b               1211.474618
+calme-2.1-qwen2.5-72b                  1210.755968
+Qwen2.5-72B-Instruct                   1177.519468
+Awqward2.5-32B-Instruct                1169.911521
+lambda-qwen2.5-32b-dpo-test            1167.956447
+Qwen2.5-32B-Instruct-abliterated-v2    1154.336863
+Qwentile2.5-32B-Instruct               1132.092581
+Cogito-R1                              1117.168753
+tempmotacilla-cinerea-0308             1082.491622
+Saka-14B                               1030.466115
+Llama-3.3-70B-Instruct                 1004.370879
+AceGPT-v2-32B-Chat                      665.529074
+AceGPT-v2-70B-Chat                      355.059668
+Qwen2-72B                               287.101656
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1233.861347
+Rombos-LLM-V2.5-Qwen-72b               1211.835892
+calme-2.1-qwen2.5-72b                  1211.600204
+Qwen2.5-72B-Instruct                   1178.214344
+Awqward2.5-32B-Instruct                1170.953730
+lambda-qwen2.5-32b-dpo-test            1168.890076
+Qwen2.5-32B-Instruct-abliterated-v2    1155.509191
+Qwentile2.5-32B-Instruct               1133.189852
+Cogito-R1                              1118.174236
+tempmotacilla-cinerea-0308             1083.489175
+Saka-14B                               1031.447207
+Llama-3.3-70B-Instruct                 1005.147170
+AceGPT-v2-32B-Chat                      669.580258
+AceGPT-v2-70B-Chat                      340.928497
+Qwen2-72B                               287.178821
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1225.152541
+Rombos-LLM-V2.5-Qwen-72b               1203.027822
+calme-2.1-qwen2.5-72b                  1201.728414
+Qwen2.5-72B-Instruct                   1171.153062
+Awqward2.5-32B-Instruct                1162.268454
+lambda-qwen2.5-32b-dpo-test            1159.925614
+Qwen2.5-32B-Instruct-CFT               1156.464997
+Qwen2.5-32B-Instruct-abliterated-v2    1144.486867
+Qwentile2.5-32B-Instruct               1122.022123
+Cogito-R1                              1104.590063
+tempmotacilla-cinerea-0308             1071.740702
+Saka-14B                               1019.884280
+Llama-3.3-70B-Instruct                  994.612786
+AceGPT-v2-32B-Chat                      658.049620
+AceGPT-v2-70B-Chat                      329.818286
+Qwen2-72B                               275.074372
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1225.074179
+Rombos-LLM-V2.5-Qwen-72b               1202.948917
+calme-2.1-qwen2.5-72b                  1201.678664
+Qwen2.5-72B-Instruct                   1171.135688
+Awqward2.5-32B-Instruct                1162.323535
+lambda-qwen2.5-32b-dpo-test            1159.877470
+Qwen2.5-32B-Instruct-CFT               1157.738792
+Qwen2.5-32B-Instruct-abliterated-v2    1144.385454
+Qwentile2.5-32B-Instruct               1121.726158
+Cogito-R1                              1104.577931
+tempmotacilla-cinerea-0308             1071.634925
+Saka-14B                               1019.777461
+Llama-3.3-70B-Instruct                  994.500658
+AceGPT-v2-32B-Chat                      657.924202
+AceGPT-v2-70B-Chat                      329.657831
+Qwen2-72B                               275.038137
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------
+Elo Rating Style:
+calme-2.2-qwen2.5-72b                  1225.144248
+Rombos-LLM-V2.5-Qwen-72b               1203.021436
+calme-2.1-qwen2.5-72b                  1201.765942
+Qwen2.5-72B-Instruct                   1171.106713
+Awqward2.5-32B-Instruct                1162.322515
+lambda-qwen2.5-32b-dpo-test            1160.534611
+Qwen2.5-32B-Instruct-CFT               1156.741369
+Qwen2.5-32B-Instruct-abliterated-v2    1144.212584
+Qwentile2.5-32B-Instruct               1121.657569
+Cogito-R1                              1104.438713
+tempmotacilla-cinerea-0308             1071.657560
+Saka-14B                               1019.832501
+Llama-3.3-70B-Instruct                  994.570991
+AceGPT-v2-32B-Chat                      658.073925
+AceGPT-v2-70B-Chat                      330.018706
+Qwen2-72B                               274.900617
+dtype: float64
+Style Coefficient:
+[]
+---------next step---------

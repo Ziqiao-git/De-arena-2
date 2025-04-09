@@ -37,7 +37,7 @@ pd.set_option('display.max_colwidth', None)
 
 # 读取环境变量
 openai_api = os.getenv("OPENAI_API", "")
-overall_ids = list(range(81, 102)) + list(range(103, 121))
+overall_ids = list(range(501))
 save_output_file_path = os.getenv("SAVE_OUTPUT_FILE_PATH", "mt_bench ranking result.txt")
 
 judge_open_model = os.getenv("JUDGE_OPEN_MODEL", "").split(",") if os.getenv("JUDGE_OPEN_MODEL") else []
@@ -1024,8 +1024,9 @@ def main(base_dir="judgements_mt_bench", valid_question_ids=overall_ids):
     print(judge_dict)
     df = pd.DataFrame(judge_dict)
     df = df.T
-    df = df[df['winner'] != 'TIE']
-    df = df[df['winner'] != 'Tie']
+    print(df.keys)
+    df = df[df["winner"] != 'TIE']
+    df = df[df["winner"] != 'Tie']
     # print(df)
     print(len(df))
 

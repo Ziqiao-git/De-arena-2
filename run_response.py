@@ -22,10 +22,12 @@ import google.generativeai as genai
 import time
 from zhipuai import ZhipuAI
 from mistralai import Mistral
+from dotenv import load_dotenv
+load_dotenv()
 total_completion_cost = 0
 total_prompt_cost = 0
 
-def load_model(model_name, gpu_memory_utilization=1, tensor_parallel_size=2):
+def load_model(model_name, gpu_memory_utilization=0.9, tensor_parallel_size=8):
     model_info = existing_model_paths.get(model_name)
     print(existing_model_paths)
     print(model_info)
@@ -525,11 +527,12 @@ def run_glm_model(prompts, model_name, temperature=0.7, max_tokens=2048):
 def save_responses(responses, model_name, output_dir, prompt_ids, prompts, question_ids, flag):
     empty_responses = []
     for i, response in enumerate(responses):
+        question_id = question_ids[i]
+        prompt_id = prompt_ids[i]
         if response.strip() == "" and flag == True:
             empty_responses.append((model_name, question_id, prompts[i]))
             continue
-        question_id = question_ids[i]
-        prompt_id = prompt_ids[i]
+
         directory = output_dir
         os.makedirs(directory, exist_ok=True)
         output_file = os.path.join(directory, f"{model_name}.jsonl")
@@ -578,11 +581,30 @@ def load_jsonl(filename):
         return [json.loads(line.strip()) for line in file]
 
 def get_questions(path):
-    questions = load_jsonl(path)
-    question_map = {question['question_id']: question['turns'][0] for question in questions}
+    # Load all JSON lines into a list of dictionaries
+    questions_list = []
+
+    # Read only the first 500 lines from the file
+    with open(path, 'r', encoding='utf-8') as f:
+        for i, line in enumerate(f):
+            if i >= 500:  # Stop after 500 lines
+                break
+            line = line.strip()
+            if not line:
+                continue  # Skip empty lines
+            data = json.loads(line)
+            questions_list.append(data)
+
+    
+    # Build a dictionary that maps question_id -> the first turn
+    question_map = {
+        q['question_id']: q['turns'][0]
+        for q in questions_list
+    }
+        
     return question_map
 
-def run_all_models(output_dir="/home/yanbin/De-Arena/mt_bench_responses", model_names="vicuna-33b", path='/home/yanbin/De-Arena/mt_bench_questions.jsonl', openai_api='111' ,tensor_parallel_size=4, max_tokens=1024, batch_size=100, temperature=0.7, gpu_memory_utilization=0.5, client=None):
+def run_all_models(output_dir="/home/yanbin/De-Arena/mt_bench_responses", model_names="vicuna-33b", path='/home/yanbin/De-Arena/mt_bench_questions.jsonl', openai_api='111' ,tensor_parallel_size=4, max_tokens=1024, batch_size=100, temperature=0.7, gpu_memory_utilization=0.9, client=None):
     print(model_names)
     question_map = get_questions(path)
     prompts = list(question_map.values())
@@ -602,9 +624,19 @@ def run_all_models(output_dir="/home/yanbin/De-Arena/mt_bench_responses", model_
         start_time = time.time()
         final_responses = dict()
         print(f"Processing model: {model_name}")
-        if "gpt" in model_name.lower() or "o1-" in model_name.lower():
+        openai_names = [
+            "gpt-3.5-turbo",
+            "gpt-4",
+            "o1-mini",
+            "o1-preview",
+            # etc. any real OpenAI identifiers you use
+        ]
+        if any(sub in model_name.lower() for sub in openai_names):
             num_batches = (len(prompts) + batch_size - 1) // batch_size
-            client = OpenAI(api_key="")
+            openai_key = os.getenv("OPENAI_API_KEY", "")
+            if not openai_key:
+                raise ValueError("No OPENAI_API_KEY found. Please set it in your .env or environment.")
+            client = OpenAI(api_key=openai_key)
             
             for i in range(num_batches):
                 batch_prompts = prompts[i * batch_size : (i + 1) * batch_size]
@@ -667,6 +699,14 @@ def run_all_models(output_dir="/home/yanbin/De-Arena/mt_bench_responses", model_
                 batch_prompts = prompts[i * batch_size : (i + 1) * batch_size]
                 batch_question_ids = question_ids[i * batch_size : (i + 1) * batch_size]
                 get_responses(batch_prompts, batch_question_ids, model, model_name, output_dir, max_tokens, temperature)
+                        # -------------------------
+            # Clean up after finishing this model
+            # -------------------------
+            print("finished")
+            import signal
+            os.kill(os.getpid(), signal.SIGKILL)
+
+
 
         total_time = time.time() - start_time
         save_time_estimation(model_name,total_time)
@@ -684,4 +724,4 @@ if __name__ == "__main__":
 
     # print(args)
 
-    fire.Fire(run_all_models(output_dir=args.output_dir, model_names=args.model_names, path=args.path, openai_api=args.openai_api, tensor_parallel_size=args.tensor_parallel_size))
+    run_all_models(output_dir=args.output_dir, model_names=args.model_names, path=args.path, openai_api=args.openai_api, tensor_parallel_size=args.tensor_parallel_size)

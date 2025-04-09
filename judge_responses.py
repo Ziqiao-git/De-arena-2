@@ -358,7 +358,7 @@ def run_judging_trials(path="math_questions.jsonl", model_name="command-r-v01", 
     print(model_names)
 
     start_time = time.time()
-    initial_question_ids = list(range(81, 102)) + list(range(103, 121))
+    initial_question_ids = list(range(81, 160))
 
     responses_dict = dict()
     # Fetch responses for each model
@@ -368,7 +368,7 @@ def run_judging_trials(path="math_questions.jsonl", model_name="command-r-v01", 
     # Select specific models for the judging trials
     for model in [model_name]:
         pair_models = copy.deepcopy(model_names)
-        pair_models.remove(model)
+        # pair_models.remove(model)
         combination_models = list(itertools.combinations(pair_models, 2))
         if split==1:
             c_len = len(combination_models) // 2
@@ -446,6 +446,8 @@ def run_judging_trials(path="math_questions.jsonl", model_name="command-r-v01", 
                     final_winner = winner if winner == swapped_winner else "TIE"
                     data_id = str(uuid.uuid4())
                     update_voting_records(model, model_a, model_b, final_winner, question_ids[cnt], data_id, dimension, split)
+        import os
+        os.kill(os.getpid(), 9)  # Forcefully terminate the script to free up GPU memory
 
 
         end_time = time.time()
@@ -462,4 +464,4 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
 
-    fire.Fire(run_judging_trials(path=args.path, model_name=args.model_name, model_names=args.model_names, tensor_parallel_size=args.tensor_parallel_size, dimension=args.dimension))
+    run_judging_trials(path=args.path, model_name=args.model_name, model_names=args.model_names, tensor_parallel_size=args.tensor_parallel_size, dimension=args.dimension)
